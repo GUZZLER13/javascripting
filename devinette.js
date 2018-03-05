@@ -1,6 +1,6 @@
 var signe = "#";
 
-if((rep === "yes") || (rep === "oui") || (rep === "Yes") || (rep === "YES") || (rep === "Oui") || (rep === "OUI")) {
+if((rep.toLowerCase() === "yes") || (rep.toLowerCase() === "oui")) {
 
 	for (var i = 0; i < 7; i++) {
 		console.log(signe);
@@ -8,7 +8,7 @@ if((rep === "yes") || (rep === "oui") || (rep === "Yes") || (rep === "YES") || (
 	}
 }
 
-else if((rep === "no") || (rep === "non") || (rep === "No") || (rep === "NO") || (rep === "Non") || (rep === "NON")) {
+else if((rep.toLowerCase() === "no") || (rep.toLowerCase() === "non")) {
 
 	alert("Quel dommmaaaaaage.... :-D");
 	
