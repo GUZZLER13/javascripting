@@ -1,6 +1,6 @@
 var signe = "#";
 
-if((rep == "yes") || (rep == "oui")) {
+if((rep === "yes") || (rep === "oui")) {
 
 	for (var i = 0; i < 7; i++) {
 		
@@ -9,7 +9,7 @@ if((rep == "yes") || (rep == "oui")) {
 	}
 }
 
-else if((rep == "no") || (rep == "non")) {
+else if((rep === "no") || (rep === "non")) {
 
 	alert("Quel dommmaaaaaage.... :-D");
 	
