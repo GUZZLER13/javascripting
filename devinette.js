@@ -19,3 +19,6 @@ else {
 	alert("Je vous sens comme tiraillé");
 	
 }
+
+
+// merci pour la correction !!!!
